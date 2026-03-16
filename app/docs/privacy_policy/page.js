@@ -82,8 +82,9 @@ export default function PrivacyPolicyPage() {
               Privacy Policy.
             </li>
             <li>
-              <strong>Binance API:</strong> Candlestick market data is retrieved from
-              Binance. No user data is shared with Binance.
+              <strong>Market Data Providers:</strong> Candlestick market data is sourced 
+              from third-party market data providers. No user data is shared with these 
+              providers.
             </li>
           </ul>
           <p>We do not sell, rent, or trade your data to any third parties.</p>

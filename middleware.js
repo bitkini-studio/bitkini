@@ -15,5 +15,10 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: ['/docs/privacy_policy', '/docs/privacy_policy/:path*'],
+  matcher: [
+    '/docs/privacy_policy',
+    '/docs/privacy_policy/:path*',
+    '/docs/term_of_service',
+    '/docs/term_of_service/:path*',
+  ],
 }
