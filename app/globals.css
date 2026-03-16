@@ -166,3 +166,84 @@ footer a:hover { color: var(--black); }
   nav, main, .features, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
   h1 { font-size: 2.25rem; }
 }
+
+.policy-wrap {
+  width: 100%;
+  padding: 3rem 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.policy-card {
+  width: min(820px, 100%);
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.policy-kicker {
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.policy-title {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.policy-date {
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.policy-card section + section {
+  margin-top: 1.25rem;
+}
+
+.policy-card h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.45rem;
+}
+
+.policy-card p {
+  color: #303030;
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+
+.policy-card ul {
+  margin: 0.5rem 0 0.9rem;
+  padding-left: 1.2rem;
+}
+
+.policy-card li {
+  list-style: disc;
+  color: #303030;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  margin-bottom: 0.45rem;
+}
+
+.policy-card a {
+  color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  .policy-wrap {
+    padding: 1.25rem 1rem 2rem;
+  }
+
+  .policy-card {
+    padding: 1.2rem;
+    border-radius: 10px;
+  }
+}
