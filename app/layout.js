@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Bitkini',
-  description: 'App Service Startup',
+  title: 'Bitkini - Software Development Company',
+  description: 'Bitkini is a software development company specializing in mobile and web applications. We design, build, and operate digital products.',
 }
 
 export default function RootLayout({ children }) {
