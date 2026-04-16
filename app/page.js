@@ -42,6 +42,14 @@ export default function Home() {
               <p className="detail-value">Software Development</p>
             </div>
             <div>
+              <p className="detail-label">Registration No.</p>
+              <p className="detail-value">377-33-01834</p>
+            </div>
+            <div>
+              <p className="detail-label">Address</p>
+              <p className="detail-value">101-1001, Seonyuseo-ro 21-gil 19<br />Yeongdeungpo-gu, Seoul, 07278</p>
+            </div>
+            <div>
               <p className="detail-label">Website</p>
               <p className="detail-value">bitkini.com</p>
             </div>

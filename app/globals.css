@@ -144,8 +144,8 @@ h1 span { color: var(--accent); }
 
 .about-details {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 3rem;
 }
 
 .detail-label {
@@ -253,6 +253,7 @@ footer a:hover { color: var(--black); }
 @media (max-width: 600px) {
   nav, main, .features, .about, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
   h1 { font-size: 2.25rem; }
+  .about-details { grid-template-columns: repeat(2, 1fr); }
 }
 
 .policy-wrap {
